@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+
+    <!-- ============================================ -->
+    <!--   1. حماية الهاردوير (MediaTek 7050 & 200MP) -->
+    <!-- ============================================ -->
+    <string name="pref_model">pixel7pro</string>
+    <string name="pref_interface">pixel7pro</string>
+    <string name="pref_camera_picturesize_back_key">4000x3000</string>
+    <boolean name="pref_camera_raw_sensor_key" value="true" />
+    <boolean name="pref_camera_aux_back_key" value="true" /> 
+    
+    <boolean name="pref_awb_key" value="true" />
+    <string name="pref_awb_back">pixel6</string>
+    <string name="pref_awb_front">pixel6</string>
+    <string name="pref_noise_model_back">samsung_s5khm3</string>
+    <string name="pref_noise_model_front">imx471</string>
+
+    <!-- ============================================ -->
+    <!--   2. الألوان المشبعة القوية (Punchy iPhone)  -->
+    <!--   هنا يكمن السحر: تم رفع التشبع لأقصى درجة   -->
+    <!-- ============================================ -->
+    <string name="pref_camera_hdrplus">hdr_plus_enhanced</string>
+    <boolean name="pref_camera_hdrplus_option_available_key" value="true" />
+    <boolean name="pref_camera_hdrplus_auto_key" value="true" />
+
+    <!-- تشبع الإضاءة العالية (High) والظلال (Low) -->
+    <string name="pref_saturation_back_high">1.35</string> <!-- ألوان زاهية جداً في الشمس -->
+    <string name="pref_saturation_back_low">1.75</string>  <!-- ظلال غنية ومليئة بالألوان -->
+    
+    <!-- تشبع السيلفي (قوي ولكن يحافظ على لون البشرة) -->
+    <string name="pref_saturation_front_high">1.15</string>
+    <string name="pref_saturation_front_low">1.40</string>
+
+    <!-- ============================================ -->
+    <!--   3. الحدة الفائقة (لإبراز التفاصيل بقوة)      -->
+    <!-- ============================================ -->
+    <string name="pref_edge_back">1.25</string> <!-- حدة قوية لإبراز ملامح الصورة -->
+    <string name="pref_noise_rep_back">0.85</string> <!-- تقليل التنعيم للحفاظ على الواقعية -->
+    <string name="pref_edge_front">0.90</string> 
+    <string name="pref_noise_rep_front">1.00</string>
+
+    <!-- ============================================ -->
+    <!--   4. التباين السينمائي (أزرار LMC)           -->
+    <!-- ============================================ -->
+    <boolean name="pref_camera_leica_key" value="true" /> <!-- ضروري جداً لتغميق الظلال -->
+    <boolean name="pref_camera_pro_key" value="true" />
+    <boolean name="pref_camera_focus_tracking_key" value="true" />
+    <boolean name="pref_camera_dynamic_depth_enabled_key" value="true" />
+    <boolean name="pref_camera_eis_key" value="true" />
+    <boolean name="pref_shasta_zsl_key" value="true" />
+
+    <!-- ============================================ -->
+    <!--   5. جودة الصورة النهائية                    -->
+    <!-- ============================================ -->
+    <string name="pref_camera_grid_lines_mode">3x3</string>
+    <string name="pref_jpeg_quality">100</string>
+
+</map>
