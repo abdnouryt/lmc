@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <!-- 1. تعريف الهاردوير وتفعيل كل العدسات بأقصى دقة -->
+    <string name="pref_model">pixel7pro</string>
+    <string name="pref_interface">pixel7pro</string>
+    <boolean name="pref_camera_raw_sensor_key" value="true" />
+    <string name="pref_camera_picturesize_back_key">4000x3000</string>
+    <boolean name="pref_camera_aux_back_key" value="true" /> <!-- تفعيل العدسة الواسعة -->
+
+    <!-- 2. إصلاح ألوان ميديا تيك وتوافق مستشعر 200MP الأساسي -->
+    <boolean name="pref_awb_key" value="true" />
+    <string name="pref_awb_back">pixel6</string>
+    <string name="pref_awb_front">pixel6</string>
+    <string name="pref_noise_model_back">samsung_s5khm3</string> <!-- أقرب موديل لمستشعرك الجبار -->
+    <string name="pref_noise_model_front">imx471</string>
+
+    <!-- 3. معالجة الضوء المتقدمة (HDR+ بأقصى قوة) -->
+    <string name="pref_camera_hdrplus">hdr_plus_enhanced</string>
+    <boolean name="pref_camera_hdrplus_option_available_key" value="true" />
+
+    <!-- 4. الألوان الحيوية والقوية (Punchy & Vibrant) -->
+    <string name="pref_saturation_back_high">1.3</string> <!-- تشبع قوي للألوان تحت الشمس -->
+    <string name="pref_saturation_back_low">1.5</string>  <!-- تشبع ممتاز في الأماكن المغلقة -->
+    <string name="pref_saturation_front_high">1.1</string>
+    <string name="pref_saturation_front_low">1.2</string>
+
+    <!-- 5. الحدة الاستثنائية واستخراج التفاصيل (السر الحقيقي هنا) -->
+    <string name="pref_edge_back">1.3</string> <!-- رفع الحدة لإظهار تفاصيل الـ 200 ميجابكسل -->
+    <string name="pref_noise_rep_back">0.8</string> <!-- تقليل التنعيم للحفاظ على ملمس الأشياء (Textures) -->
+    <string name="pref_edge_front">1.1</string> <!-- تفاصيل حادة في السيلفي -->
+    <string name="pref_noise_rep_front">0.9</string>
+
+    <!-- 6. أزرار القوة في واجهة LMC -->
+    <boolean name="pref_camera_leica_key" value="true" /> <!-- زر لايكا للتباين السينمائي -->
+    <boolean name="pref_camera_pro_key" value="true" /> <!-- تفعيل المعالجة القصوى -->
+    <boolean name="pref_camera_focus_tracking_key" value="true" /> <!-- تتبع الفوكس السريع -->
+    <boolean name="pref_camera_dynamic_depth_enabled_key" value="true" /> <!-- عزل بورتريه قوي -->
+    <boolean name="pref_camera_eis_key" value="true" /> <!-- تثبيت فيديو ممتاز -->
+    <boolean name="pref_shasta_zsl_key" value="true" /> <!-- سرعة التقاط فائقة -->
+    <string name="pref_camera_grid_lines_mode">3x3</string>
+</map>
